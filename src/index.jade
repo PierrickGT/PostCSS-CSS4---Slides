@@ -23,7 +23,7 @@ html
       section.black(data-bespoke-backdrop='postcss')
         h1 PostCSS 🚀 CSS4
 
-      section.black
+      section.black.dezoom
         img.avatar(src='images/avatar/pierrick.jpg')
         h3 @PierrickGT
         h4 
@@ -31,7 +31,7 @@ html
           | spécialisé Front End
         img.js-logo(src='images/logo/js-republic-white.svg')
           
-      section.black
+      section.black.dezoom
         h2.title-top Sommaire
         ul.no-bullets
           li
@@ -43,14 +43,26 @@ html
           li
             h3 4. Conclusion
       
-      section.white(data-bespoke-backdrop='saint-petersbourg')
+      section.white.dezoom(data-bespoke-backdrop='saint-petersbourg')
         h2 Open Source
         img.logo(src='images/logo/evil-martians.svg')
         div.avatars  
           img.avatar(src='images/avatar/andrei.jpg')
           h3 Andrey Sitnik
           
-      section.white(data-bespoke-backdrop='silicon-valley')
+      section.white.dezoom.twitter-resize(data-bespoke-backdrop='paris')
+        blockquote.twitter-tweet(data-lang='en')
+          p(lang='en', dir='ltr')
+            | I will talk about 
+            a(href='https://twitter.com/stylelint') @Stylelint
+            |  and linters best practices at CSS Paris, October 26 
+            a(href='https://t.co/EpybaigJDd') https://t.co/EpybaigJDd
+            a(href='https://t.co/ylcrYrMmch') pic.twitter.com/ylcrYrMmch
+          | — Andrey Sitnik (@andreysitnik) 
+          a(href='https://twitter.com/andreysitnik/status/788348946980696064') October 18, 2016
+
+          
+      section.white.dezoom(data-bespoke-backdrop='silicon-valley')
         h2.title-top Utilisé par
         ul.companies.no-bullets
           li
@@ -69,7 +81,7 @@ html
           li
             img(src='images/logo/taobao.svg')
       
-      section.white.twitter-resize(data-bespoke-backdrop='depuis')
+      section.white.dezoom.twitter-resize(data-bespoke-backdrop='depuis')
         h2.title-top Existe depuis
         blockquote.twitter-tweet(data-lang='fr')
           p(lang='en', dir='ltr')
@@ -78,7 +90,7 @@ html
           | — PostCSS (@PostCSS) 
           a(href='https://twitter.com/PostCSS/status/773981891804430336') 8 septembre 2016
 
-      section.white
+      section.white.dezoom-less
         h2.title-top Téléchargements
         figure#weeks.full(data-highcharts-chart='1')
           #highcharts-4.highcharts-container(style='position: relative; overflow: hidden; width: 980px; height: 400px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
@@ -317,16 +329,16 @@ html
                   tspan(dx='0') : 
                   tspan(style='font-weight:bold', dx='0') 711,993
 
-      section.white.github-slide
+      section.white.dezoom-less.github-slide
         h2.title-top Contributions
         img.github(src='images/stat/github.png')
           
-      section.black.what-is
+      section.black.dezoom.what-is
         h2 Qu'est-ce que
         h2 (n'est pas)
         h2 PostCSS ?
         
-      section.black
+      section.black.dezoom
         ul.minimal.center
           li
             h3
@@ -341,10 +353,10 @@ html
             h3
               strike Outil d'Optimisation
       
-      section.black
+      section.black.dezoom
         div.emoji 🤔
       
-      section.black(data-bespoke-backdrop='south-park')
+      section.black.dezoom(data-bespoke-backdrop='south-park')
         h2.title-top Framework
         blockquote.twitter-tweet(data-lang='en')
           p(lang='en', dir='ltr')
@@ -354,44 +366,44 @@ html
           a(href='https://twitter.com/PostCSS/status/762022948861513728') August 6, 2016
         script(async='', src='//platform.twitter.com/widgets.js', charset='utf-8')
       
-      section.white.github-slide
+      section.white.dezoom.github-slide
         h2.title-top Under the Hood
         img.github(src='images/schema/postcss.png')
       
-      section.white
-        h2 Benchmark
-        script#asciicast-86975(type='text/javascript', src='https://asciinema.org/a/86975.js', async='', data-autoplay='1', data-preload='1', data-size='medium', data-speed='4')
+      section.black.dezoom
+        h2.title-top Benchmark
+        img.asciicast-86975(src='images/cast/86975.png')
  
-      section.white(data-bespoke-backdrop='plugins')
+      section.white.dezoom(data-bespoke-backdrop='plugins')
         h1 Plugins
       
-      section.white(data-bespoke-backdrop='postcss-parts')
+      section.white.dezoom-iframe(data-bespoke-backdrop='postcss-parts')
         iframe.iframe(src='http://postcss.parts', width='75%', height='100%', frameBorder='0')
         div.avatars  
           img.avatar(src='images/avatar/max.jpg')
           h3 Max Stoiber
           
-      section.white
+      section.white.dezoom-iframe
         h2.title-top API
         iframe.iframe(src='http://api.postcss.org', width='75%', height='75%', frameBorder='0')
           
-      section.black(data-bespoke-backdrop='versus')
+      section.black.dezoom(data-bespoke-backdrop='versus')
         h2 PostCSS
         h3 — vs. —
         h2 Sass
         
-      section.white
-        h2 Benchmark
-        script#asciicast-86974(type='text/javascript', src='https://asciinema.org/a/86974.js', async='', data-autoplay='1', data-preload='1', data-size='medium', data-speed='4')
-        
-      section.white
+      section.black.dezoom
+        h2.title-top Benchmark
+        img.asciicast-86974(src='images/cast/86974.png')
+          
+      section.white.dezoom
         h2 Autoprefixer
         img.autoprefixer-logo(src='images/logo/autoprefixer.svg')
         div.avatars  
           img.avatar(src='images/avatar/andrei.jpg')
           h3 Andrey Sitnik
       
-      section.black(data-bespoke-backdrop='autoprefixer')
+      section.black.dezoom(data-bespoke-backdrop='autoprefixer')
         h2 Sass
         pre
           code.language-css.
@@ -405,7 +417,7 @@ html
             .box { @include border-radius(10px); }
         h3 Input
         
-      section.black(data-bespoke-backdrop='autoprefixer')
+      section.black.dezoom(data-bespoke-backdrop='autoprefixer')
         h2 Sass
         pre
           code.language-css.
@@ -417,7 +429,7 @@ html
             }
         h3 Output
         
-      section.black(data-bespoke-backdrop='autoprefixer')
+      section.black.dezoom(data-bespoke-backdrop='autoprefixer')
         h2 Postcss
         pre
           code.language-css.
@@ -426,7 +438,7 @@ html
             }
         h3 Input
         
-      section.black(data-bespoke-backdrop='autoprefixer')
+      section.black.dezoom(data-bespoke-backdrop='autoprefixer')
         h2 Postcss
         pre
           code.language-css.
@@ -448,11 +460,11 @@ html
             }
         h3 Output
         
-      section.black(data-bespoke-backdrop='autoprefixer')
+      section.black.dezoom-iframe(data-bespoke-backdrop='autoprefixer')
         h2.title-top Can I Use
         iframe.iframe(src='http://caniuse.com/#search=border-radius', width='75%', height='75%', frameBorder='0')
       
-      section.black(data-bespoke-backdrop='autoprefixer')
+      section.black.dezoom(data-bespoke-backdrop='autoprefixer')
         h2 Postcss
         pre
           code.language-css.
@@ -462,7 +474,7 @@ html
             }
         h3 Input
       
-      section.black(data-bespoke-backdrop='autoprefixer')
+      section.black.dezoom(data-bespoke-backdrop='autoprefixer')
         h2 Postcss
         pre
           code.language-css.
@@ -471,11 +483,11 @@ html
             }
         h3 Output
         
-      section.black(data-bespoke-backdrop='autoprefixer')
-        h2 Benchmark
-        script#asciicast-86976(type='text/javascript', src='https://asciinema.org/a/86976.js', async='', data-autoplay='1', data-preload='1', data-size='medium', data-speed='4')
+      section.black.dezoom
+        h2.title-top Benchmark
+        img.asciicast-86976(src='images/cast/86976.png')
 
-      section.black(data-bespoke-backdrop='sass')
+      section.black.dezoom(data-bespoke-backdrop='sass')
         h2.title-top Fonctionnalités SASS
         ul.minimal.center
           li
@@ -491,22 +503,22 @@ html
           li
             h3 ...
             
-      section.black(data-bespoke-backdrop='precss')
+      section.black.dezoom(data-bespoke-backdrop='precss')
         h2.title-top PreCSS
         img.precss-logo(src='images/logo/precss.png')
         div.avatars.avatars-bottom 
           img.avatar(src='images/avatar/jonathan.jpeg')
           h3 Jonathan Neal
       
-      section.black(data-bespoke-backdrop='precss')
+      section.black.dezoom-iframe(data-bespoke-backdrop='precss')
         h2.title-top PreCSS
         iframe.iframe(src='https://jonathantneal.github.io/precss/', width='75%', height='75%', frameBorder='0')
         
-      section.black(data-bespoke-backdrop='precss')
+      section.black.dezoom(data-bespoke-backdrop='precss')
         h2.title-top PreCSS
         img.precss-issue(src='images/issue/precss.png')
         
-      section.black
+      section.black.dezoom
         h2.title-top Postcss-functions
         pre
           code.language-javascript.
@@ -523,40 +535,36 @@ html
           img.avatar(src='images/avatar/andy.png')
           h3 Andy Jansson
           
-      section.black(data-bespoke-backdrop='util')
+      section.black.dezoom-iframe(data-bespoke-backdrop='util')
         h2.title-top @util
         iframe.iframe-absolute(src='https://ismamz.github.io/postcss-utilities/', width='50%', height='50%', frameBorder='0')
         div.avatars.avatars-bottom 
           img.avatar(src='images/avatar/ismael.jpg')
           h3 Ismael Martínez
-          
-      section.black(data-bespoke-backdrop='rucksack')
-        h2.title-top Rucksack
-        iframe.iframe-absolute(src='https://simplaio.github.io/rucksack/', width='50%', height='50%', frameBorder='0')
-        div.avatars.avatars-bottom 
-          img.avatar(src='images/avatar/simpla.png')
-          h3 Simpla
-          
+      
       section.black(data-bespoke-backdrop='cssnext')
+        h1 CSS4
+      
+      section.black.dezoom-iframe(data-bespoke-backdrop='cssnext')
         h2.title-top CssNext
         iframe.iframe-absolute(src='http://cssnext.io/', width='50%', height='50%', frameBorder='0')
         div.avatars.avatars-bottom 
           img.avatar(src='images/avatar/maxime.jpeg')
           h3 🇫🇷 Maxime Thirouin 🇫🇷
           
-      section.white(data-bespoke-backdrop='netflix-bg')
+      section.white.dezoom-iframe(data-bespoke-backdrop='netflix-bg')
         h2.title-top Démonstration
         img.netflix(src='images/code/netflix.jpg')
         div.avatars.avatars-bottom 
           img.avatar(src='images/avatar/kristoffer.jpg')
           h3 Kristoffer Kvale
           
-      section.white(data-bespoke-backdrop='pcgb')
+      section.white.dezoom(data-bespoke-backdrop='pcgb')
         h2.title-top Boilerplate
         img.pcgb-logo(src='images/logo/pcgb.svg')
         h3.link-bottom <a href="https://github.com/markdalgleish/bespoke-backdrop">https://github.com/PierrickGT/PCGB</a>
 
-      section.black(data-bespoke-backdrop='cssnext-code')
+      section.black.dezoom(data-bespoke-backdrop='cssnext-code')
         h2.title-top Installation
         pre
           code.language-bash.
@@ -567,7 +575,22 @@ html
               postcss-browser-reporter postcss-reporter 
               --save-dev
               
-      section.black(data-bespoke-backdrop='cssnext-code')
+      section.black.dezoom(data-bespoke-backdrop='cssnext-code')
+        h2.title-top Nesting
+        pre
+          code.language-css.
+            a {
+              /* direct nesting */
+              & span {
+                  color: white;
+              }
+              /* @nest rule (for complex nesting) */
+              @nest .parent & {
+                color: blue;
+              }
+            }
+            
+      section.black.dezoom(data-bespoke-backdrop='cssnext-code')
         h2.title-top Variables
         pre
           code.language-css.
@@ -579,7 +602,7 @@ html
               color: var(--mainColor);
             }
             
-      section.black(data-bespoke-backdrop='cssnext-code')
+      section.black.dezoom(data-bespoke-backdrop='cssnext-code')
         h2.title-top Color Function
         pre
           code.language-css.
@@ -591,21 +614,21 @@ html
               color: color(red blackness(80%));
             }
       
-      section.black(data-bespoke-backdrop='cssnext-code')
+      section.black.dezoom(data-bespoke-backdrop='cssnext-code')
         h2.title-top Custom Selectors
         pre
           code.language-css.
             @custom-selector :--button button, .button;
-            @custom-selector :--enter :hover, :focus;
-
             :--button {
               styles for your buttons
             }
+            
+            @custom-selector :--enter :hover, :focus;
             :--button:--enter {
               hover/focus styles for your button
             }
             
-      section.black(data-bespoke-backdrop='cssnext-code')
+      section.black.dezoom(data-bespoke-backdrop='cssnext-code')
         h2.title-top @apply 
         pre
           code.language-css.
@@ -619,7 +642,7 @@ html
               @apply --danger-theme;
             }
             
-      section.black(data-bespoke-backdrop='cssnext-code')
+      section.black.dezoom(data-bespoke-backdrop='cssnext-code')
         h2.title-top Filter property
         pre
           code.language-css.
@@ -627,7 +650,11 @@ html
                 filter: blur(4px);
             }
             
-      section.black(data-bespoke-backdrop='cssnext-code')
+            .drop-shadow {
+              filter: drop-shadow(1px 1px 0 black);
+            }
+            
+      section.black.dezoom(data-bespoke-backdrop='cssnext-code')
         h2.title-top :not pseudo-class
         pre
           code.language-css.
@@ -635,9 +662,13 @@ html
               color: red;
             }
             
-      section.black(data-bespoke-backdrop='cssnext-code')
+            p:matches(:first-child, .special) {
+              color: #5c0120;
+            }
+            
+      section.black.dezoom-iframe(data-bespoke-backdrop='cssnext-code')
         h2.title-top Media Queries Ranges
-        pre
+        pre.mqr
           code.language-css.
             @media (width >= 500px) and (width <= 1200px) {
               your styles
@@ -650,10 +681,10 @@ html
               your styles
             }
 
-      section.black(data-bespoke-backdrop='conclusion')
+      section.black.dezoom(data-bespoke-backdrop='conclusion')
         h1 Conclusion
         
-      section.black(data-bespoke-backdrop='conclusion')
+      section.black.dezoom(data-bespoke-backdrop='conclusion')
         h2.title-top 👍
         ul.minimal.center
           li
@@ -665,7 +696,7 @@ html
           li
             h3 Communauté
             
-      section.black(data-bespoke-backdrop='conclusion')
+      section.black.dezoom(data-bespoke-backdrop='conclusion')
         h2.title-top 👎
         ul.minimal.center
           li
@@ -677,7 +708,7 @@ html
           li
             h3 Maintenance des plugins
       
-      section.black.what-is(data-bespoke-backdrop='merci')
+      section.black.dezoom.what-is(data-bespoke-backdrop='merci')
         h2 Merci
         h2 &
         h2 À vos questions

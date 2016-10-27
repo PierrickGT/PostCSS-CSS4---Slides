@@ -31,7 +31,7 @@ footer
     position: relative
 
 .js-logo--footer
-  width: 12vw
+  width: 13vw
   &.hide
     display: none
   &.show
@@ -102,6 +102,13 @@ article.white
 
   .saint-petersbourg
     background-image: url('../images/background/saint-petersbourg.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    &.bespoke-backdrop-active
+      opacity: .2
+
+  .paris
+    background-image: url('../images/background/paris.jpg')
     background-size: cover
     background-repeat: no-repeat
     &.bespoke-backdrop-active
@@ -199,7 +206,7 @@ article.white
     background-position: center center
     background-color: #17B66D
     &.bespoke-backdrop-active
-      opacity: .5
+      opacity: .25
 
   .conclusion
     background-image: url('../images/background/conclusion.gif')
@@ -234,6 +241,15 @@ section.white
     border-left-width: 0
     border-right-width: 0
 
+section.dezoom
+  zoom: .95 !important
+
+section.dezoom-iframe
+  zoom: .85 !important
+
+section.dezoom-less
+  zoom: .75 !important
+
 // Text
 .center
   text-align: center
@@ -267,7 +283,7 @@ ul.minimal li:before
 
 .link-bottom
   position: absolute
-  bottom: 0
+  bottom: 12px
 
 // Logos
 .js-logo
@@ -281,9 +297,9 @@ ul.minimal li:before
   padding: 20px 0
 
 .precss-logo
-  height: 10vh
+  height: 35vh
   position: absolute
-  top: calc(50% - 8vh)
+  top: calc(50% - 26vh)
 
 // Lists
 .no-bullets
@@ -318,7 +334,7 @@ iframe.iframe
 iframe.iframe-absolute
   border-radius: 5px
   position: absolute
-  top: 5.5vh
+  top: 15vh
 
 // Github Statistics
 .github
@@ -341,9 +357,22 @@ iframe.iframe-absolute
 // Code
 .netflix
   position: absolute
-  top: 5.5vh
+  top: 10.5vh
   height: 60%
   border-radius: 5px
 
 .pcgb-logo
   width: 50%
+
+// Benchmark
+.asciicast-86975, .asciicast-86974
+  height: 80vh
+  margin-top: 4vh
+
+.asciicast-86976
+  width: 100vw
+  margin-top: 4vh
+
+// CSSNext Code
+.mqr
+  margin-top: 10vh !important
